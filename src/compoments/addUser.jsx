@@ -19,7 +19,7 @@ function AddUser({ addUser }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="flex justify-between gap-3">
+      <div className="md:flex grid justify-between gap-3">
         <input
           type="text"
           placeholder="Name"

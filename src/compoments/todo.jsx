@@ -17,7 +17,7 @@ function Todo() {
     <>
       <h1 className="text-3xl font-bold text-center mt-16">Todo App</h1>
 
-      <div className="mx-auto container w-[50%] mt-8">
+      <div className="mx-auto container lg:w-[50%] w-full p-3 mt-8">
         <AddUser addUser={addUser} />
         <UserList users={users} deleteUser={deleteUser} />
       </div>
