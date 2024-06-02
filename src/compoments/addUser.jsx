@@ -25,14 +25,14 @@ function AddUser({ addUser }) {
           placeholder="Name"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className="w-full md:p-0 p-2 border border-orange-300 pl-2 rounded-lg hover:bg-gray-200 "
+          className="w-full md:p-0 p-2 border border-orange-300 lg:pl-2 pl-4 rounded-lg hover:bg-gray-200 "
         />
         <input
           type="email"
           placeholder="Email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          className="w-full md:p-0 p-2 border border-orange-300 pl-2 rounded-lg hover:bg-gray-200"
+          className="w-full md:p-0 p-2 border border-orange-300 lg:pl-2 pl-4 rounded-lg hover:bg-gray-200"
         />
         <div
           type="submit"
